@@ -24,8 +24,9 @@ from scipy.signal import butter, filtfilt
 
 #************************************
 # Paths
-walkPath = "https://raw.githubusercontent.com/Rieskamies/Walk-Analyzer/main/data/walkData.csv"
-gpsPath  = "https://raw.githubusercontent.com/Rieskamies/Walk-Analyzer/main/data/gpsData.csv"
+walkPath = "https://raw.githubusercontent.com/Rieskamies/Walk-Analyzer/refs/heads/main/data/walkData.csv"
+gpsPath  = "https://raw.githubusercontent.com/Rieskamies/Walk-Analyzer/refs/heads/main/data/gpsData.csv"
+
 
 # Load data
 walk_df = pd.read_csv(walkPath)
